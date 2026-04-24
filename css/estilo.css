@@ -1,0 +1,37 @@
+*{
+    text-decoration: none;
+}
+header { 
+ background-color: rgb(27, 128, 27);
+}
+header {
+    text-align: center;
+    color: white;
+}
+header nav li { 
+    display: inline;
+
+}
+main h1 {
+    text-align: center;
+    color: white;
+}
+#info {
+    background-color: rgb(236, 30, 30);
+}
+#info  {
+    text-align: center;
+     
+}
+#sobre {
+    text-align: center;
+    background-color: rgb(27, 128, 27);
+
+}
+#sobre h2 {
+    color: white;
+}
+a {
+    color: rgb(243, 238, 238);
+}
+footer img {margin-left: 13px;}
