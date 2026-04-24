@@ -34,4 +34,9 @@ main h1 {
 a {
     color: rgb(243, 238, 238);
 }
-footer img {margin-left: 13px;}
+footer img {
+    margin-left: 13px;
+}
+.grid{ 
+    display: grid;
+    text-align: center;
