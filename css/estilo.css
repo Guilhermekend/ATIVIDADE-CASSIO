@@ -37,6 +37,7 @@ a {
 footer img {
     margin-left: 13px;
 }
-.grid{display: grid;
-    text-align: center;
-} 
+
+#palestrantes { 
+    display: inline-block;
+}
