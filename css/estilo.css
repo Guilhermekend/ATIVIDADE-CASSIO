@@ -1,13 +1,18 @@
 *{
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
 }
 header { 
- background-color: rgb(27, 128, 27);
-}
-header {
+    background-color: rgb(27, 128, 27);
     text-align: center;
     color: white;
+    padding: 20px;
+    margin: 10px;
+
 }
+
 header nav li { 
     display: inline;
 
@@ -18,14 +23,16 @@ main h1 {
 }
 #info {
     background-color: rgb(236, 30, 30);
-}
-#info  {
     text-align: center;
-     
+    padding: 20px;
+    margin: 10px;
 }
+
 #sobre {
     text-align: center;
     background-color: rgb(27, 128, 27);
+    padding: 20px;
+    margin: 10px;
 
 }
 #sobre h2 {
@@ -37,7 +44,61 @@ a {
 footer img {
     margin-left: 13px;
 }
-
+/**********************SECTION PALESTRANTE**********************************/
 #palestrantes { 
+    background-color: rgb(27, 128, 27);
+    text-align: center;
+}
+#palestrantes h2 {
+    color: white;
+}
+#palestrantes img{
+    width: 150px;
+    height: 150px;
+}
+
+#programa {
+    background-color:rgb(236, 30, 30);
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    
+    
+}
+#programa table {
+    text-align: center;
     display: inline-block;
+}
+#programa h2 {
+    color: white;
+    
+}
+#programa table , td {
+    border: solid 1px;
+    border-collapse: collapse;  /* tirar bordas duplas*/
+}
+#inscricao {
+    text-align: center;
+    background-color:rgb(236, 30, 30) ;
+    padding: 20px;
+    margin: 10px;
+}
+#inscricao form {
+    display: inline-block;
+}
+footer {
+    text-align: center;
+    background-color: rgb(236, 30, 30);
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.card{
+    width: 30%;
+    border: solid 2px;
+    display: inline-block;
+    height: 220px;
+    overflow: auto;
 }
